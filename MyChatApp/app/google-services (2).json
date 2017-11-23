@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "579772299312",
+    "firebase_url": "https://samplechat-e7983.firebaseio.com",
+    "project_id": "samplechat-e7983",
+    "storage_bucket": "samplechat-e7983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579772299312:android:280af6c9b623bfc8",
+        "android_client_info": {
+          "package_name": "com.example.ajays.mychatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579772299312-ufeebj4kc7la1ic4sk6hpkf5u4c4eqi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA443wrjCDP1xe6bsT4XbslwSLa6V0TX5s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579772299312-ufeebj4kc7la1ic4sk6hpkf5u4c4eqi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

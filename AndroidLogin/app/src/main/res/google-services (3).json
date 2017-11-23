@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "851048710822",
+    "project_id": "efixy-162114"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851048710822:android:e719445babda8b6a",
+        "android_client_info": {
+          "package_name": "com.example.ajays.androidlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851048710822-9otsqt052d3hl8pvj7m74ntcpp5tbn7e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "851048710822-aouqaumfdvtoua6inamne6kbg9shp8th.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ajays.androidlogin",
+            "certificate_hash": "2b273aa95c45e96a8129d496e65b97fa5bddde13"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDbICKcfrW3S5Sxbj_LI8gvQgFkoEhqUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

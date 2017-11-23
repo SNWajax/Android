@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "288681966894",
+    "firebase_url": "https://firemap-ca164.firebaseio.com",
+    "project_id": "firemap-ca164",
+    "storage_bucket": "firemap-ca164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288681966894:android:6fcc2949f9f29ac7",
+        "android_client_info": {
+          "package_name": "com.example.ajays.firemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288681966894-qtvrcnroaiqpv6nsa8pp9d4hkoo0025g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ajays.firemap",
+            "certificate_hash": "2B273AA95C45E96A8129D496E65B97FA5BDDDE13"
+          }
+        },
+        {
+          "client_id": "288681966894-godn8uc8ip2daj4n5u5clvktijva00uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAu2Vc5UY6Z551oQV0kIW8RxOHuwgPOUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288681966894-godn8uc8ip2daj4n5u5clvktijva00uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

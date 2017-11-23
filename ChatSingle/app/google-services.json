@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679536953663",
+    "firebase_url": "https://chatsingle-b752b.firebaseio.com",
+    "project_id": "chatsingle-b752b",
+    "storage_bucket": "chatsingle-b752b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679536953663:android:ea4da659cf946815",
+        "android_client_info": {
+          "package_name": "orchid.chatsingle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679536953663-h7iu29hp18ehr7d3gp7fvq8qgsvggim5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orchid.chatsingle",
+            "certificate_hash": "2b273aa95c45e96a8129d496e65b97fa5bddde13"
+          }
+        },
+        {
+          "client_id": "679536953663-pmdvk7kvk05jmiaa5rktl2t6ocfblm0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKSptkH7dL63avd2wTMH3hYabqtynKEyo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679536953663-pmdvk7kvk05jmiaa5rktl2t6ocfblm0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

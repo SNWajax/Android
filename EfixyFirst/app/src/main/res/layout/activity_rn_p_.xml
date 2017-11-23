@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    tools:context="com.efixy.efixyfirst.RnP_Activity">
+
+    <!--
+    <Button
+        android:id="@+id/btn_logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="87dp"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+--><RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/repair">
+    <Button
+        android:id="@+id/btn_repair"
+        android:layout_width="300dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_shape_btn"
+        android:textSize="40dp"
+        android:text="Repair" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/purchase"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <Button
+        android:id="@+id/btn_purchase"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="40dp"
+            android:background="@drawable/rounded_shape_btn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Purchase" />
+    </RelativeLayout>
+
+</LinearLayout>

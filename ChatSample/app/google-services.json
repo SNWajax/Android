@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "51658385654",
+    "firebase_url": "https://chatsample-c66bc.firebaseio.com",
+    "project_id": "chatsample-c66bc",
+    "storage_bucket": "chatsample-c66bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51658385654:android:785c4383fb80fc4a",
+        "android_client_info": {
+          "package_name": "com.example.ajays.chatsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51658385654-l1j5rm8vmnqnlnfj3147amgfg6pci9jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPLMWcYCCzCBXg9sq8G-PfdkMQj8BCx8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51658385654-l1j5rm8vmnqnlnfj3147amgfg6pci9jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

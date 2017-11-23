@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1011657516568",
+    "firebase_url": "https://efixy-7518a.firebaseio.com",
+    "project_id": "efixy-7518a",
+    "storage_bucket": "efixy-7518a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011657516568:android:8e3f584ba7fabf41",
+        "android_client_info": {
+          "package_name": "com.efixy.efixyfirst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011657516568-2g9g850tfppkkmdbuf5rg7kg3h0o7pkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.efixy.efixyfirst",
+            "certificate_hash": "2b273aa95c45e96a8129d496e65b97fa5bddde13"
+          }
+        },
+        {
+          "client_id": "1011657516568-k8vfe5htrujpinhkek58bourgaroj81h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY2mXyl19HTG0YcRCB5qMNcoeUvjy_g-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011657516568-k8vfe5htrujpinhkek58bourgaroj81h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

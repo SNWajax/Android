@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "413440195231",
+    "firebase_url": "https://efixe-f5459.firebaseio.com",
+    "project_id": "efixe-f5459",
+    "storage_bucket": "efixe-f5459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413440195231:android:26a2d0f9e2a4c90f",
+        "android_client_info": {
+          "package_name": "com.vaibhavmore.efixe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413440195231-bh1iot3puo4tgk94mit2s12bp4he2mbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaibhavmore.efixe",
+            "certificate_hash": "a903a6e2d6ab4537aec680df218f8eab4d85a28b"
+          }
+        },
+        {
+          "client_id": "413440195231-narlqrfo4gtmbvpao2nr0evm0tpn2a8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWKtTqKCOv_wGptvba94qO4cK1Rw_qs-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413440195231-narlqrfo4gtmbvpao2nr0evm0tpn2a8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

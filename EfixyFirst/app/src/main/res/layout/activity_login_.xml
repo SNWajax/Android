@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.efixy.efixyfirst.Login_Activity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:id="@+id/md_mail">
+    <EditText
+        android:id="@+id/edit_mail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_signIn"
+        android:layout_marginTop="39dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:layout_below="@+id/md_mail"
+        android:id="@+id/md_pass">
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="173dp"
+        android:layout_alignEnd="@+id/btn_signIn"
+        android:layout_marginTop="36dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="SignIn"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="249dp"
+        android:background="@drawable/rounded_shape_btn"
+        android:layout_below="@+id/md_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:id="@+id/text_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_signIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="New user? Click here to register." />
+
+    <TextView
+        android:id="@+id/text_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Forgot Password"
+        android:layout_below="@+id/text_signIn"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <color name="gray">#293542</color>
+</resources>

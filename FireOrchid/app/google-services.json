@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "588156082501",
+    "firebase_url": "https://fireorchid-1e1ab.firebaseio.com",
+    "project_id": "fireorchid-1e1ab",
+    "storage_bucket": "fireorchid-1e1ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588156082501:android:fae0a56b89db7ea4",
+        "android_client_info": {
+          "package_name": "orchid.fireorchid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588156082501-oms2p6m1nmkvn53cip89ubgh2kce5amt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orchid.fireorchid",
+            "certificate_hash": "2b273aa95c45e96a8129d496e65b97fa5bddde13"
+          }
+        },
+        {
+          "client_id": "588156082501-venl6fg0p2iung69bvqvqo98vjljs0vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAurGXSopjKyk7c1oJCbmQnz1a-E_39BLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588156082501-venl6fg0p2iung69bvqvqo98vjljs0vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.efixy.efixyfirst.RepairActivity">
+
+    <Button
+        android:id="@+id/pur_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TV"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="72dp"
+        android:layout_marginTop="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/pur_WM" />
+
+    <Button
+        android:id="@+id/pur_WM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Washing Machine"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_alignBaseline="@+id/pur_laptop"
+        android:layout_alignBottom="@+id/pur_laptop"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/pur_fridge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refrigerator"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="392dp"
+        android:layout_alignBottom="@+id/rep_AC"
+        android:layout_alignEnd="@+id/pur_WM"
+        android:layout_alignTop="@+id/pur_AC" />
+
+    <Button
+        android:id="@+id/pur_mob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="72dp"
+        android:layout_alignBaseline="@+id/pur_TV"
+        android:layout_alignBottom="@+id/pur_TV"
+        android:layout_alignStart="@+id/pur_AC"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/pur_laptop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laptop"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/pur_AC" />
+
+    <Button
+        android:id="@+id/pur_AC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="392dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="89dp" />
+</RelativeLayout>

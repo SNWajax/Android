@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    tools:context="com.efixy.efixyfirst.MainActivity">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/md_mail">
+    <EditText
+        android:id="@+id/edit_mail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_register"
+        android:layout_marginTop="39dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/md_pass"
+        android:layout_below="@+id/md_mail">
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="173dp"
+        android:layout_alignEnd="@+id/btn_register"
+        android:layout_marginTop="36dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="249dp"
+        android:background="@drawable/rounded_shape_btn"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/md_pass"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="21dp"
+        android:text="Already Signed In? Login In here."
+        android:layout_below="@+id/btn_register"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
